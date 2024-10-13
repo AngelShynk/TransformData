@@ -18,7 +18,7 @@ This project demonstrates how to load, parse, and store raw and structured sales
 ```mermaid
 graph TD;
     A[CSV Raw Data] --> B[DuckDB: sales_raw Table];
-    B --> C[DuckDB: JSON Parsing];
+    B --> C(DuckDB: JSON Parsing);
     C --> D[DuckDB: sales_structured Table];
 ```
 
