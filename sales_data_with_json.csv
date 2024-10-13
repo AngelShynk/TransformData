@@ -1,0 +1,6 @@
+sales_id,product_info,store_info,customer_id,sales_date,total_sales,total_quantity_sold
+1,"{""product_id"": 101, ""product_name"": ""Laptop"", ""product_category"": ""Electronics""}","{""store_id"": 1, ""store_name"": ""Store A"", ""store_location"": ""New York""}",201,2023-10-01,10000.0,10
+2,"{""product_id"": 102, ""product_name"": ""Smartphone"", ""product_category"": ""Electronics""}","{""store_id"": 1, ""store_name"": ""Store A"", ""store_location"": ""New York""}",202,2023-10-01,7500.0,15
+3,"{""product_id"": 103, ""product_name"": ""TV"", ""product_category"": ""Electronics""}","{""store_id"": 2, ""store_name"": ""Store B"", ""store_location"": ""Chicago""}",203,2023-10-02,15000.0,10
+4,"{""product_id"": 101, ""product_name"": ""Laptop"", ""product_category"": ""Electronics""}","{""store_id"": 2, ""store_name"": ""Store B"", ""store_location"": ""Chicago""}",204,2023-10-02,5000.0,5
+5,"{""product_id"": 102, ""product_name"": ""Smartphone"", ""product_category"": ""Electronics""}","{""store_id"": 3, ""store_name"": ""Store C"", ""store_location"": ""San Francisco""}",205,2023-10-03,12000.0,24
