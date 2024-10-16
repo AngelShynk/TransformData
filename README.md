@@ -1,7 +1,7 @@
 
 # How to make data structured using DuckDB
 
-This project demonstrates how to load, parse, and store raw and structured sales data into a DuckDB database (`sales.duckdb`). The raw data contains JSON columns that are parsed and transformed into a structured format. The following steps outline the process:
+This scripts (generate_simple_dataset.py, make_data_structured.py) demonstrates how to load, parse, and store raw and structured sales data into a DuckDB database (`sales.duckdb`). The raw data contains JSON columns that are parsed and transformed into a structured format. The following steps outline the process:
 
 1. **Load raw CSV data** into DuckDB (`sales_raw` table).
 2. **Parse JSON columns** (`product_info`, `store_info`) into structured fields.
@@ -52,3 +52,18 @@ graph TD;
 
 - `duckdb`
 - `pandas`
+
+
+# Kafka Events Data Processing
+
+- simulate_kafka_data_transforming.py
+- kafka_events.csv
+
+## Features
+
+- Generates Kafka-like metadata for each event.
+- Creates a raw nested JSON data structure with potential null values.
+- Writes the generated data to a CSV file.
+- Loads the CSV data into a DuckDB database.
+- Processes the data into staging and mart tables, handling JSON parsing and deduplication.
+- Provides aggregated data based on user actions.
